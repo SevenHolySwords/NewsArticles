@@ -18,7 +18,7 @@ export default function Articles({ categories, articles }) {
             data={articles}
             keyExtractor={(item) => item.idArticle}
             renderItem={renderItem}
-            numColumns={1}
+            numColumns={2}
           />
       </View>
     </View>

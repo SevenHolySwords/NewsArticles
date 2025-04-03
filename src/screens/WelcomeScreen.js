@@ -26,7 +26,7 @@ export default function WelcomeScreen() {
       300
     );
 
-    setTimeout(() => navigation.navigate("Home"), 2500);
+    setTimeout(() => navigation.navigate("Home",{screen: 'Home'}), 3500);
   }, []);
 
   return (
@@ -37,7 +37,7 @@ export default function WelcomeScreen() {
       <Animated.View style={[styles.ring, { padding: ring2padding }]}>
         <Animated.View style={[styles.ring, { padding: ring1padding }]}>
           <Image
-            source={{uri:'https://cdn.pixabay.com/photo/2013/07/12/17/43/newspaper-152320_1280.png'}}
+            source={require("../../assets/images/323415180_478199684391463_4971074817255282616_n.png")}
             style={styles.logo}
           />
         </Animated.View>
@@ -45,8 +45,8 @@ export default function WelcomeScreen() {
 
       {/* title and punchline */}
       <View style={styles.textContainer}>
-        <Text style={styles.title}>WHATS GOING ON!</Text>
-        <Text style={styles.subtitle}>your latest news app</Text>
+        <Text style={styles.title}>OrishaLand</Text>
+        <Text style={styles.subtitle}>Fulfillment begins here</Text>
       </View>
     </View>
   );
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#6439FF", // amber-500
+    backgroundColor: "#000000"//"#6439FF", // amber-500
   },
   ring: {
     backgroundColor: "rgba(255, 255, 255, 0.2)", // white/20
