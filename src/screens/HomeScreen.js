@@ -10,39 +10,39 @@ import Categories from "../components/categories";
 import Articles from "../components/articles";
 
 export default function HomeScreen() {
-  const [activeCategory, setActiveCategory] = useState("Technology");
+  const [activeCategory, setActiveCategory] = useState("400+1 News");
 
   // Hardcoded categories for news
   const [categories, setCategories] = useState([
     {
       idCategory: "1",
-      strCategory: "Technology",
+      strCategory: "400+1 News",
       strCategoryThumb:
         "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       idCategory: "2",
-      strCategory: "Sports",
+      strCategory: "Affiliate",
       strCategoryThumb:
         "https://images.pexels.com/photos/358042/pexels-photo-358042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       idCategory: "3",
-      strCategory: "Business",
+      strCategory: "Global",
       strCategoryThumb:
         "https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       idCategory: "4",
-      strCategory: "Entertainment",
+      strCategory: "400+1 Lifestyle",
       strCategoryThumb:
         "https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       idCategory: "5",
-      strCategory: "Health",
+      strCategory: "Local news",
       strCategoryThumb:
-        "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
+        "https://images.pexels.com/photos/40568/medical-appointment-doctor-Local newscare-40568.jpeg",
     },
   ]);
 
@@ -50,12 +50,12 @@ export default function HomeScreen() {
   const [allArticles, setAllArticles] = useState([
     {
       idArticle: "1",
-      title: "AI Revolution in Technology",
+      title: "AI Revolution in 400+1 News",
       description:
-        "AI is changing the way we interact with technology and improving our lives.",
+        "AI is changing the way we interact with 400+1 News and improving our lives.",
       thumbnail:
         "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Technology",
+      category: "400+1 News",
       idCategory: "1",
     },
     {
@@ -65,17 +65,17 @@ export default function HomeScreen() {
         "The 2024 Olympics are set to be one of the most competitive events ever.",
       thumbnail:
         "https://images.pexels.com/photos/5687405/pexels-photo-5687405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Sports",
+      category: "Affiliate",
       idCategory: "2",
     },
     {
       idArticle: "3",
       title: "Stock Market Soars",
       description:
-        "Business sectors are experiencing a significant surge in stock prices.",
+        "Global sectors are experiencing a significant surge in stock prices.",
       thumbnail:
         "https://images.pexels.com/photos/5583964/pexels-photo-5583964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Business",
+      category: "Global",
       idCategory: "3",
     },
     {
@@ -85,76 +85,76 @@ export default function HomeScreen() {
         "Marvel’s latest release has broken box office records worldwide.",
       thumbnail:
         "https://plus.unsplash.com/premium_photo-1682124853113-d1aad6ae96ef?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      category: "Entertainment",
+      category: "400+1 Lifestyle",
       idCategory: "4",
     },
     {
       idArticle: "5",
-      title: "Health Tips for 2024",
+      title: "Local news Tips for 2024",
       description:
-        "Top health experts share their best tips to stay fit and healthy.",
+        "Top Local news experts share their best tips to stay fit and Local newsy.",
       thumbnail:
         "https://images.pexels.com/photos/4720778/pexels-photo-4720778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Health",
+      category: "Local news",
       idCategory: "5",
     },
     {
       idArticle: "6",
       title: "The Future of Blockchain",
-      description: "Blockchain technology is poised to revolutionize numerous industries by offering a decentralized, transparent, and secure way to record transactions and manage data. Its inherent qualities, such as immutability and trustlessness, allow organizations to streamline processes, reduce fraud, and enhance accountability. In finance, blockchain can facilitate faster, cheaper cross-border transactions and eliminate the need for intermediaries. In supply chain management, it provides real-time tracking of goods, ensuring authenticity and improving efficiency. The healthcare sector can benefit from secure patient data management, enabling better interoperability among providers. Moreover, industries like real estate, voting, and intellectual property management are exploring blockchain for its potential to enhance transparency and reduce administrative burdens. As more organizations adopt this technology, the landscape of various sectors will likely transform, driving innovation and fostering greater collaboration across the globe.",
+      description: "Blockchain 400+1 News is poised to revolutionize numerous industries by offering a decentralized, transparent, and secure way to record transactions and manage data. Its inherent qualities, such as immutability and trustlessness, allow organizations to streamline processes, reduce fraud, and enhance accountability. In finance, blockchain can facilitate faster, cheaper cross-border transactions and eliminate the need for intermediaries. In supply chain management, it provides real-time tracking of goods, ensuring authenticity and improving efficiency. The Local newscare sector can benefit from secure patient data management, enabling better interoperability among providers. Moreover, industries like real estate, voting, and intellectual property management are exploring blockchain for its potential to enhance transparency and reduce administrative burdens. As more organizations adopt this 400+1 News, the landscape of various sectors will likely transform, driving innovation and fostering greater collaboration across the globe.",
       thumbnail:
         "https://images.pexels.com/photos/6781340/pexels-photo-6781340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Technology",
+      category: "400+1 News",
       idCategory: "1",
     },
     {
       idArticle: "7",
-      title: "The Rise of Esports",
-      description: "Esports is becoming a mainstream phenomenon globally.",
+      title: "The Rise of EAffiliate",
+      description: "EAffiliate is becoming a mainstream phenomenon globally.",
       thumbnail:
         "https://images.pexels.com/photos/5207523/pexels-photo-5207523.jpeg",
-      category: "Sports",
+      category: "Affiliate",
       idCategory: "2",
     },
     {
       idArticle: "8",
-      title: "New Business Trends in 2024",
-      description: "Innovative business practices are reshaping industries.",
+      title: "New Global Trends in 2024",
+      description: "Innovative Global practices are reshaping industries.",
       thumbnail:
         "https://images.pexels.com/photos/19797311/pexels-photo-19797311/free-photo-of-2024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Business",
+      category: "Global",
       idCategory: "3",
     },
     {
       idArticle: "9",
-      title: "AI Revolution in Technology",
-      description: "AI is changing the way we interact with technology and improving our lives.",
+      title: "AI Revolution in 400+1 News",
+      description: "AI is changing the way we interact with 400+1 News and improving our lives.",
       thumbnail: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Technology",
+      category: "400+1 News",
       idCategory: "1"
     },
     {
       idArticle: "10",
       title: "Advancements in Telemedicine",
-      description: "Telemedicine is transforming patient care by providing remote consultations and healthcare services.",
+      description: "Telemedicine is transforming patient care by providing remote consultations and Local newscare services.",
       thumbnail: "https://images.pexels.com/photos/4054171/pexels-photo-4054171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Health",
+      category: "Local news",
       idCategory: "5"
     },
     {
       idArticle: "11",
-      title: "Mental Health Awareness",
-      description: "Raising awareness about mental health issues is crucial for fostering a supportive community.",
+      title: "Mental Local news Awareness",
+      description: "Raising awareness about mental Local news issues is crucial for fostering a supportive community.",
       thumbnail: "https://images.pexels.com/photos/4506145/pexels-photo-4506145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Health",
+      category: "Local news",
       idCategory: "5"
     },
     {
       idArticle: "12",
       title: "The Importance of Nutrition",
-      description: "Nutrition plays a vital role in maintaining health and preventing diseases.",
+      description: "Nutrition plays a vital role in maintaining Local news and preventing diseases.",
       thumbnail: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Health",
+      category: "Local news",
       idCategory: "5"
     },
     {
@@ -162,23 +162,23 @@ export default function HomeScreen() {
       title: "Fitness Trends to Watch",
       description: "Explore the latest fitness trends that are shaping the way we exercise.",
       thumbnail: "https://images.pexels.com/photos/3821628/pexels-photo-3821628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Health",
+      category: "Local news",
       idCategory: "5"
     },
     {
       idArticle: "14",
       title: "The Future of Personalized Medicine",
-      description: "Personalized medicine is revolutionizing healthcare by tailoring treatments to individual patients.",
+      description: "Personalized medicine is revolutionizing Local newscare by tailoring treatments to individual patients.",
       thumbnail: "https://images.pexels.com/photos/4153351/pexels-photo-4153351.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Health",
+      category: "Local news",
       idCategory: "5"
     },
     {
       idArticle: "15",
       title: "The Rise of Streaming Services",
-      description: "Streaming services are reshaping how we consume entertainment, offering diverse content at our fingertips.",
+      description: "Streaming services are reshaping how we consume 400+1 Lifestyle, offering diverse content at our fingertips.",
       thumbnail: "https://images.pexels.com/photos/1454635/pexels-photo-1454635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Entertainment",
+      category: "400+1 Lifestyle",
       idCategory: "4"
     },
     {
@@ -186,15 +186,15 @@ export default function HomeScreen() {
       title: "Exploring Virtual Reality in Gaming",
       description: "Virtual reality is changing the gaming landscape, offering immersive experiences like never before.",
       thumbnail: "https://images.pexels.com/photos/5480263/pexels-photo-5480263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Entertainment",
+      category: "400+1 Lifestyle",
       idCategory: "4"
     },
     {
       idArticle: "17",
-      title: "The Impact of Social Media on Entertainment",
-      description: "Social media platforms are becoming a significant source of entertainment, influencing trends and artists.",
+      title: "The Impact of Social Media on 400+1 Lifestyle",
+      description: "Social media platforms are becoming a significant source of 400+1 Lifestyle, influencing trends and artists.",
       thumbnail: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Entertainment",
+      category: "400+1 Lifestyle",
       idCategory: "4"
     },
     {
@@ -202,7 +202,7 @@ export default function HomeScreen() {
       title: "Behind the Scenes of Film Production",
       description: "Discover the intricate process of film production and what goes on behind the camera.",
       thumbnail: "https://images.pexels.com/photos/3823606/pexels-photo-3823606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Entertainment",
+      category: "400+1 Lifestyle",
       idCategory: "4"
     },
     {
@@ -210,15 +210,15 @@ export default function HomeScreen() {
       title: "Music Trends to Watch",
       description: "Explore the emerging music trends that are shaping the industry and artists.",
       thumbnail: "https://images.pexels.com/photos/5061850/pexels-photo-5061850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Entertainment",
+      category: "400+1 Lifestyle",
       idCategory: "4"
     },
     {
       idArticle: "20",
       title: "The Evolution of E-commerce",
-      description: "E-commerce continues to evolve, offering new opportunities for businesses and consumers alike.",
+      description: "E-commerce continues to evolve, offering new opportunities for Globales and consumers alike.",
       thumbnail: "https://images.pexels.com/photos/5082825/pexels-photo-5082825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Business",
+      category: "Global",
       idCategory: "3"
     },
     {
@@ -226,23 +226,23 @@ export default function HomeScreen() {
       title: "Remote Work: The New Normal",
       description: "Remote work has become a standard practice, changing the dynamics of the workplace.",
       thumbnail: "https://images.pexels.com/photos/3184336/pexels-photo-3184336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Business",
+      category: "Global",
       idCategory: "3"
     },
     {
       idArticle: "22",
-      title: "Sustainable Business Practices",
-      description: "Businesses are increasingly adopting sustainable practices to meet consumer demand and reduce their environmental impact.",
+      title: "Sustainable Global Practices",
+      description: "Globales are increasingly adopting sustainable practices to meet consumer demand and reduce their environmental impact.",
       thumbnail: "https://images.pexels.com/photos/3055791/pexels-photo-3055791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Business",
+      category: "Global",
       idCategory: "3"
     },
     {
       idArticle: "23",
-      title: "The Role of AI in Business",
-      description: "Artificial intelligence is revolutionizing business operations, improving efficiency and decision-making.",
+      title: "The Role of AI in Global",
+      description: "Artificial intelligence is revolutionizing Global operations, improving efficiency and decision-making.",
       thumbnail: "https://images.pexels.com/photos/3861990/pexels-photo-3861990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Business",
+      category: "Global",
       idCategory: "3"
     },
     {
@@ -250,47 +250,47 @@ export default function HomeScreen() {
       title: "Entrepreneurship in the Digital Age",
       description: "The digital era has opened new avenues for entrepreneurs, fostering innovation and growth.",
       thumbnail: "https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Business",
+      category: "Global",
       idCategory: "3"
     },
     {
       idArticle: "25",
-      title: "The Rise of Esports",
-      description: "Esports has gained massive popularity, becoming a legitimate form of competition and entertainment.",
+      title: "The Rise of EAffiliate",
+      description: "EAffiliate has gained massive popularity, becoming a legitimate form of competition and 400+1 Lifestyle.",
       thumbnail: "https://images.pexels.com/photos/3396213/pexels-photo-3396213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Sports",
+      category: "Affiliate",
       idCategory: "2"
     },
     {
       idArticle: "26",
-      title: "The Impact of Technology on Sports Training",
-      description: "Technology is transforming sports training, providing athletes with advanced tools for performance improvement.",
+      title: "The Impact of 400+1 News on Affiliate Training",
+      description: "400+1 News is transforming Affiliate training, providing athletes with advanced tools for performance improvement.",
       thumbnail: "https://images.pexels.com/photos/3378655/pexels-photo-3378655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Sports",
+      category: "Affiliate",
       idCategory: "2"
     },
     {
       idArticle: "27",
-      title: "Women in Sports: Breaking Barriers",
-      description: "Women athletes are making significant strides in various sports, breaking barriers and inspiring future generations.",
+      title: "Women in Affiliate: Breaking Barriers",
+      description: "Women athletes are making significant strides in various Affiliate, breaking barriers and inspiring future generations.",
       thumbnail: "https://images.pexels.com/photos/3761534/pexels-photo-3761534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Sports",
+      category: "Affiliate",
       idCategory: "2"
     },
     {
       idArticle: "28",
-      title: "Major Sports Events to Look Forward To",
-      description: "Upcoming major sports events promise thrilling competitions and unforgettable moments.",
+      title: "Major Affiliate Events to Look Forward To",
+      description: "Upcoming major Affiliate events promise thrilling competitions and unforgettable moments.",
       thumbnail: "https://images.pexels.com/photos/3099493/pexels-photo-3099493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Sports",
+      category: "Affiliate",
       idCategory: "2"
     },
     {
       idArticle: "29",
-      title: "The Role of Technology in Sports Analytics",
-      description: "Technology is enhancing sports analytics, providing teams with valuable insights to improve performance.",
+      title: "The Role of 400+1 News in Affiliate Analytics",
+      description: "400+1 News is enhancing Affiliate analytics, providing teams with valuable insights to improve performance.",
       thumbnail: "https://images.pexels.com/photos/1074043/pexels-photo-1074043.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      category: "Sports",
+      category: "Affiliate",
       idCategory: "2"
     }
   ]);
