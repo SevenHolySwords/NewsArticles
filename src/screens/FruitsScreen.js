@@ -7,7 +7,7 @@ import 'react-native-gesture-handler';
           { name: 'Heart rate', image: '../assets/images/heartbeat_image.png'},
           { name: 'Stress trends', image: '../assets/images/Zen_rock.jpg' },
           { name: 'Maslow Pyramid', image: '../assets/images/Maslow.jpg' },
-          { name: 'Survey Web', image: '../assets/images/word.jpg' },];
+          { name: 'Surveys', image: '../assets/images/word.jpg' },];
         return (
           <ScrollView style={styles.container}>
             <Text style={styles.title}>Biometrics and Profile </Text>

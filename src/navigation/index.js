@@ -14,6 +14,7 @@ import CustomNewsScreen from "../screens/CustomNewsScreen";
 import NewsFormScreen from "../screens/NewsFormScreen";
 import FavoriteScreen from "../screens/FavoriteScreen";
 import ArticleDetailScreen from "../screens/ArticleDetailScreen";
+import js from "../screens/SurveyScreen";
 
 
 
