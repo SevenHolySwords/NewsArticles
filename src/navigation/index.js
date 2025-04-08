@@ -14,7 +14,13 @@ import CustomNewsScreen from "../screens/CustomNewsScreen";
 import NewsFormScreen from "../screens/NewsFormScreen";
 import FavoriteScreen from "../screens/FavoriteScreen";
 import ArticleDetailScreen from "../screens/ArticleDetailScreen";
-import js from "../screens/SurveyScreen";
+import json from "../components/SurveyScreen";
+import HrScreen from "../screens/HrScreen";
+import StScreeen from "../screens/StScreen";
+import MaslowScreen from "../screens/MaslowScreen";
+import SurveyScreen2 from "../screens/SurveyScreen2";
+import App from "../screens/GoogleMapsScreen";
+
 
 
 
@@ -69,12 +75,22 @@ function AppNavStack() {
         <Stack.Screen name="CustomNewsScreen" component={CustomNewsScreen} />
         <Stack.Screen name="NewsFormScreen" component={NewsFormScreen} />
         <Stack.Screen name="FavoriteScreen" component={FavoriteScreen} />
+        <Stack.Screen name="Heart rate" component={HrScreen} />
+        <Stack.Screen name="Stress trends" component={StScreeen} />
+        <Stack.Screen name="Maslow Pyramid" component={MaslowScreen} />
+        <Stack.Screen name="Surveys" component={SurveyScreen2} />
+        <Stack.Screen name="Orishans" component={App} />
+
       </Stack.Navigator>
   );
 }
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 10 },
+  mapcontainer: {height: 500,
+    width: 500,
+    BackgroundColor: '#F48021',
+    borderRadius: 5},
   title: { fontSize: 27, marginBottom: 10, textAlign:'center',color: 'black', fontStyle:'italic'},
   itemContainer: { flexDirection: 'row', marginBottom: 10, alignItems: 'center' },
   image: { width: 120, height: 120, marginRight: 10 },

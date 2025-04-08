@@ -2,8 +2,8 @@ import React from "react";
 import { Model } from "survey-core";
 import { Survey } from "survey-react-ui";
 import "survey-core/survey-core.min.css";
-import "./index.css";
-import { json } from "./json";
+//import "./index.css";
+import { json } from '../components/SurveyScreen';
 
 function SurveyComponent() {
     const survey = new Model(json);
