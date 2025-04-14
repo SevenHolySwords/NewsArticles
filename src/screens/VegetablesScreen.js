@@ -9,7 +9,7 @@ export default function VegetablesScreen() {
       { name: 'Orishan Cities', image: '../assets/images/city.jpg' }, ];
     return (
       <ScrollView style={styles.container}>
-        <Text style={styles.title}>Fresh vegetables directy from farmers land</Text>
+        <Text style={styles.title}>Making a biz out of....</Text>
         {vegetables.map((vegetable, index) => (
           <View key={index} style={styles.itemContainer}>
             <Image source={{ uri: vegetable.image }} style={styles.image} />

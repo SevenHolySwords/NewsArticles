@@ -2,12 +2,19 @@
   "expo": {
     "extra": {
       "eas": {
-        "projectId": "592ff420-e889-4662-a84d-ab56928b20a6"
+        "projectId": "7abeebd9-5db7-413d-ac2d-d919293b73c5"
       }
     },
     "android": {
       "package": "com.yashkapure.reactnativeui"
-      
+    },
+    "owner": "sevenholyswords",
+    "slug": "nappv00",
+    "ios": {
+      "bundleIdentifier": "com.yashkapure.reactnativeui",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     }
   }
 }

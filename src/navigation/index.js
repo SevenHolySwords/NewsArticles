@@ -19,7 +19,7 @@ import HrScreen from "../screens/HrScreen";
 import StScreeen from "../screens/StScreen";
 import MaslowScreen from "../screens/MaslowScreen";
 import SurveyScreen2 from "../screens/SurveyScreen2";
-import App from "../screens/GoogleMapsScreen";
+//import App from "../screens/GoogleMapsScreen";
 
 
 
@@ -79,7 +79,7 @@ function AppNavStack() {
         <Stack.Screen name="Stress trends" component={StScreeen} />
         <Stack.Screen name="Maslow Pyramid" component={MaslowScreen} />
         <Stack.Screen name="Surveys" component={SurveyScreen2} />
-        <Stack.Screen name="Orishans" component={App} />
+      
 
       </Stack.Navigator>
   );
